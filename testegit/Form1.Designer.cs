@@ -40,7 +40,7 @@ namespace testegit
             // 
             // BtnEntrar
             // 
-            this.BtnEntrar.Location = new System.Drawing.Point(323, 346);
+            this.BtnEntrar.Location = new System.Drawing.Point(363, 340);
             this.BtnEntrar.Name = "BtnEntrar";
             this.BtnEntrar.Size = new System.Drawing.Size(75, 23);
             this.BtnEntrar.TabIndex = 11;
@@ -50,7 +50,7 @@ namespace testegit
             // 
             // txtsenha
             // 
-            this.txtsenha.Location = new System.Drawing.Point(298, 264);
+            this.txtsenha.Location = new System.Drawing.Point(338, 258);
             this.txtsenha.Name = "txtsenha";
             this.txtsenha.PasswordChar = '*';
             this.txtsenha.Size = new System.Drawing.Size(134, 23);
@@ -61,7 +61,7 @@ namespace testegit
             this.textusuario.BackColor = System.Drawing.Color.White;
             this.textusuario.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.textusuario.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.textusuario.Location = new System.Drawing.Point(298, 151);
+            this.textusuario.Location = new System.Drawing.Point(338, 145);
             this.textusuario.Name = "textusuario";
             this.textusuario.Size = new System.Drawing.Size(134, 23);
             this.textusuario.TabIndex = 9;
@@ -69,7 +69,7 @@ namespace testegit
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(341, 215);
+            this.label3.Location = new System.Drawing.Point(381, 209);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(39, 15);
             this.label3.TabIndex = 8;
@@ -78,7 +78,7 @@ namespace testegit
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(333, 113);
+            this.label2.Location = new System.Drawing.Point(373, 107);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(47, 15);
             this.label2.TabIndex = 7;
@@ -88,7 +88,7 @@ namespace testegit
             // 
             this.lb_login.AutoSize = true;
             this.lb_login.Font = new System.Drawing.Font("Cambria", 18F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point);
-            this.lb_login.Location = new System.Drawing.Point(325, 47);
+            this.lb_login.Location = new System.Drawing.Point(363, 33);
             this.lb_login.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lb_login.Name = "lb_login";
             this.lb_login.Size = new System.Drawing.Size(73, 28);
@@ -108,7 +108,7 @@ namespace testegit
             this.Controls.Add(this.label2);
             this.Controls.Add(this.lb_login);
             this.Name = "TelaInicial";
-            this.Text = "Tela login";
+            this.Text = " ";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

@@ -35,7 +35,7 @@ namespace testegit
              }
             else if (textusuario.Text == "ADM" && txtsenha.Text == "2525")
             {
-                TelaAdm telaAdm = new TelaAdm();
+                TelaAdm telaAdm = new TelaAdm(); 
                 telaAdm.Show();
             }
             else
@@ -47,4 +47,3 @@ namespace testegit
 
     }
 }
-

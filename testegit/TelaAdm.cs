@@ -22,5 +22,10 @@ namespace testegit
             ConsultaFuncionario consultaFuncionario = new ConsultaFuncionario();
             consultaFuncionario.Show();
         }
+
+        private void TelaAdm_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

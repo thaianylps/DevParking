@@ -34,9 +34,9 @@ namespace testegit
             // 
             // btnfun_consulta
             // 
-            this.btnfun_consulta.Location = new System.Drawing.Point(292, 344);
+            this.btnfun_consulta.Location = new System.Drawing.Point(291, 358);
             this.btnfun_consulta.Name = "btnfun_consulta";
-            this.btnfun_consulta.Size = new System.Drawing.Size(173, 80);
+            this.btnfun_consulta.Size = new System.Drawing.Size(173, 56);
             this.btnfun_consulta.TabIndex = 0;
             this.btnfun_consulta.Text = "Consulta de Funcionarios";
             this.btnfun_consulta.UseVisualStyleBackColor = true;
@@ -50,6 +50,7 @@ namespace testegit
             this.Controls.Add(this.btnfun_consulta);
             this.Name = "TelaAdm";
             this.Text = "TelaAdm";
+            this.Load += new System.EventHandler(this.TelaAdm_Load);
             this.ResumeLayout(false);
 
         }

@@ -50,7 +50,7 @@ namespace testegit
             this.dgvCliente.Location = new System.Drawing.Point(24, 62);
             this.dgvCliente.Name = "dgvCliente";
             this.dgvCliente.RowTemplate.Height = 25;
-            this.dgvCliente.Size = new System.Drawing.Size(736, 356);
+            this.dgvCliente.Size = new System.Drawing.Size(736, 232);
             this.dgvCliente.TabIndex = 1;
             // 
             // ConsultaCliente

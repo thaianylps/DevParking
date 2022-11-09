@@ -46,11 +46,12 @@ namespace testegit
             // Consulta_funcionario
             // 
             this.Consulta_funcionario.AutoSize = true;
-            this.Consulta_funcionario.Location = new System.Drawing.Point(300, 20);
+            this.Consulta_funcionario.Font = new System.Drawing.Font("Cambria", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point);
+            this.Consulta_funcionario.Location = new System.Drawing.Point(269, 23);
             this.Consulta_funcionario.Name = "Consulta_funcionario";
-            this.Consulta_funcionario.Size = new System.Drawing.Size(38, 15);
+            this.Consulta_funcionario.Size = new System.Drawing.Size(211, 25);
             this.Consulta_funcionario.TabIndex = 1;
-            this.Consulta_funcionario.Text = "label1";
+            this.Consulta_funcionario.Text = "Consulta Funcionário";
             this.Consulta_funcionario.Click += new System.EventHandler(this.label1_Click);
             // 
             // ConsultaFuncionario
