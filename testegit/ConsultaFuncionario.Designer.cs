@@ -36,12 +36,14 @@ namespace testegit
             // 
             // dgvFuncionario
             // 
+            this.dgvFuncionario.BackgroundColor = System.Drawing.SystemColors.ControlLightLight;
             this.dgvFuncionario.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvFuncionario.Location = new System.Drawing.Point(12, 72);
             this.dgvFuncionario.Name = "dgvFuncionario";
             this.dgvFuncionario.RowTemplate.Height = 25;
-            this.dgvFuncionario.Size = new System.Drawing.Size(761, 227);
+            this.dgvFuncionario.Size = new System.Drawing.Size(765, 347);
             this.dgvFuncionario.TabIndex = 0;
+            this.dgvFuncionario.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvFuncionario_CellContentClick);
             // 
             // Consulta_funcionario
             // 
@@ -58,6 +60,7 @@ namespace testegit
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(199)))), ((int)(((byte)(145)))));
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.Consulta_funcionario);
             this.Controls.Add(this.dgvFuncionario);

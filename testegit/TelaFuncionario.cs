@@ -28,5 +28,19 @@ namespace testegit
 
 
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            ConsultadeReservas consultadeReservas = new ConsultadeReservas();
+            consultadeReservas.Show();
+
+        }
+
+        private void btn_cdcliente_Click(object sender, EventArgs e)
+        {
+            CadastroReserva cadastroReserva = new CadastroReserva();
+            cadastroReserva.Show();
+
+        }
     }
 }

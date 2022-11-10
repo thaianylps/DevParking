@@ -10,14 +10,19 @@ using System.Windows.Forms;
 
 namespace testegit
 {
-    public partial class CadastroCliente : Form
+    public partial class CadastroReserva : Form
     {
-        public CadastroCliente()
+        public CadastroReserva()
         {
             InitializeComponent();
         }
 
-        private void label6_Click(object sender, EventArgs e)
+        private void toolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void numericUpDown1_ValueChanged(object sender, EventArgs e)
         {
 
         }

@@ -31,6 +31,7 @@ namespace testegit
         {
             this.label1 = new System.Windows.Forms.Label();
             this.dgvCliente = new System.Windows.Forms.DataGridView();
+            this.label2 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dgvCliente)).BeginInit();
             this.SuspendLayout();
             // 
@@ -46,18 +47,30 @@ namespace testegit
             // 
             // dgvCliente
             // 
+            this.dgvCliente.BackgroundColor = System.Drawing.SystemColors.ControlLightLight;
             this.dgvCliente.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvCliente.Location = new System.Drawing.Point(24, 62);
+            this.dgvCliente.Location = new System.Drawing.Point(31, 103);
             this.dgvCliente.Name = "dgvCliente";
             this.dgvCliente.RowTemplate.Height = 25;
-            this.dgvCliente.Size = new System.Drawing.Size(736, 232);
+            this.dgvCliente.Size = new System.Drawing.Size(736, 297);
             this.dgvCliente.TabIndex = 1;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(31, 70);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(92, 15);
+            this.label2.TabIndex = 2;
+            this.label2.Text = "Lista de Clientes";
             // 
             // ConsultaCliente
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(199)))), ((int)(((byte)(145)))));
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.label2);
             this.Controls.Add(this.dgvCliente);
             this.Controls.Add(this.label1);
             this.Name = "ConsultaCliente";
@@ -73,5 +86,6 @@ namespace testegit
 
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.DataGridView dgvCliente;
+        private System.Windows.Forms.Label label2;
     }
 }

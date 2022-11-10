@@ -44,6 +44,9 @@ namespace testegit
             }
         }
 
+        private void lb_login_Click(object sender, EventArgs e)
+        {
 
+        }
     }
 }

@@ -38,5 +38,27 @@ namespace testegit
         {
 
         }
+
+        private void dgvFuncionario_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+            DataTable dt = new DataTable();
+            string conexaoFuncionario = @"server=localhost;Database=estacionamento;Uid=root;Pwd='94609398lpS@' ";
+            MySqlConnection Funcionarioconnection = new MySqlConnection();
+            Funcionarioconnection.ConnectionString = conexaoFuncionario;
+            Funcionarioconnection.Open();
+
+     
+
+
+
+            MySqlCommand Funcionariocommand = new MySqlCommand();
+            string insertQuery = "INSERT INTO funcionario(cd_funcionario,nm_funcionario) values(5,'Vagalume')";
+            MySqlCommand cmd = new MySqlCommand(insertQuery, Funcionarioconnection);
+            MySqlDataReader rdr = cmd.ExecuteReader();
+            Funcionarioconnection.Close();
+
+
+    
+        }
     }
 }
